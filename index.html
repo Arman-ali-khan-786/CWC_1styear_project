@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Know Corona</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    padding-bottom: 10vh;
+    width: 100%;
+    min-height: 100%;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#menu-sec{
+    color: antiquewhite;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.qes1{
+   
+    background-color: red;
+    padding: 8px;
+}
+.qes2{
+    background-color: darkred;
+    padding: 8px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    color: antiquewhite;
+}
+header{
+    
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(32, 26, 26);
+
+}
+.container{
+    width:100%;
+    overflow: hidden;
+    margin: auto;
+}
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin : 40px 60px 40px 60px;
+    border: 3px solid white;
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px black;
+    transition: all 0.3s linear;
+}
+.container ul li :hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+.container ul li .title{
+    width: 100%;
+    height : 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center; 
+    transition: all 0.3s linear;
+	font-size:30px;
+}
+.container ul li .title:hover{
+    background: rgb(8, 200, 143);
+    color: white;
+    border-radius: 8px;
+}
+li:hover{
+    transform: scale(1.1);
+}
+footer{
+    width: 100%;
+    height : max-content;
+    background-color: rgb(32, 26, 26);
+    position: absolute;
+    bottom: 0;
+}
+.fontawesome{
+    display: flex;
+    padding: 13px 10px;
+    justify-content: left;
+    gap: 23px;
+}
+.fa-instagram{
+    color:#FF1493;
+ }
+ .fa-facebook{
+    color:	#0f74e7; 
+ }
+ .fa-twitter{
+    color: #00BFFF; 
+ }
+ .fa-linkedin{
+     color: rgb(20, 20, 223);
+ }
+ .me{
+     text-align: center;
+ }
+ .connect{
+     font-size: larger;
+     color: antiquewhite;
+     padding-left: 125vh;
+ }
+ video{
+     position: fixed;
+     z-index: -1;
+     width: 100%;
+     height: auto;
+ }
+        </style>
+    </head>
+    <body>
+        <video src="Pexels.mp4" type="video/mp4" autoplay></video>
+        <h1 class="qes1">Are you a victim of Covid ?</h1>
+        <h1 class="qes2">Don't worry ,if you are. This page will provide you all the information related to COVID-19</h1>
+        <header>
+            <div class="menu">
+               <li ><a id="menu-sec" href="#about">About</a></li>
+               <li ><a id="menu-sec" href="https://www.who.int/health-topics/coronavirus#tab=tab_1">WHO</a></li>
+               <li ><a id="menu-sec" href="#contact">contact</a></li>
+            </div>
+            
+
+        </header>
+        <main>
+            
+            <div class="container">
+                <ul>
+                    <li><div id="about" class="title">About COVID-19</div>
+                        <a href="his.html"><img src="coronacovidimg.jpg" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                    <li><div class="title">Symptoms</div>
+                        <a href="sysmptom.html"><img src="sysmptoms.png" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                    <li><div class="title">Preventions</div>
+                        <a href="prevent.html"><img src="prvent.jpg" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                    <li><div class="title">Help Section</div>
+                        <a href="help.html"><img src="needhelp.jpg" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                    <li><div class="title">updates</div>
+                        <a href="updates.html"><img src="update.jpg" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                    <li><div class="title">Frequently Asked Questions</div>
+                        <a href="faq.html"><img src="faq.jpg" alt="image of covid-19s" style="width:90%; height:80%; padding: 10px; margin-left: 25px;"></a></li>
+                </ul>
+            </div>
+        </main>
+        <footer id="contact">
+            <div class="fontawesome">
+                <a href="https://www.facebook.com/profile.php?id=100010354006362" target="blank">
+                    <i class="fa fa-2x fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/arman__khan__786_/" target="blank">
+                    <i class="fa fa-2x fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arman-ali-khan-b44751169/" target="blank">
+                    <i class="fa fa-2x fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/ARMAN__786?s=08" target="blank">
+                    <i class="fa fa-2x fa-twitter"></i>
+                </a>
+                <div class="connect">
+                    <p class="me">&copy;created by Arman </p>
+                    <p><strong>email&nbsp;:&nbsp;</strong><i><a href="mailto:alikhanarman786@gmail.com">alikhanarman786@gmail.com</a><p>
+                </div>
+            </div>
+            
+                       
+        </footer>
+        
+    </body>
+</html>
