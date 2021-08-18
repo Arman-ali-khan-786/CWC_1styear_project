@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>need help??</title>
+        <style>
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            }
+            .beg{
+                width: 100%;
+                padding: 24px;
+            }
+            h2{
+                text-align: center;
+                padding-left: 30px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25px;
+                margin-bottom: 20px;
+                color: brown;
+                
+            }
+            .form-heading{
+                text-align: center;
+                font-size: 35px;
+                padding: 10px 10px 25px 10px;
+            }
+            main{
+                padding: 24px;
+            }
+            form{
+                background-color: white;
+                width: 650px;
+                margin: auto;
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 16px;
+                border: 3px solid transparent ;
+                border-radius: 10px;
+                box-shadow: 2px 2px 10px white;
+                margin-bottom: 40px;
+                letter-spacing: 2px;
+            }
+            form:hover{
+                background-color: black;
+                transform: scale(1.08);
+                color: blanchedalmond;
+                box-shadow: 2px 2px 10px black;
+            }
+            .form-element{
+                width: 100%;
+                padding: 16px;
+            }
+            .fullname, .email, .age, .aadhar, .City, .contact{
+                width: 100%;
+                padding: 12px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+            }
+            .label{
+                padding: 10px 10px 10px 0;
+            }
+            #submit-button{
+                text-align: center;
+                font-size: 30px;
+                color: azure;
+                background-color: transparent;
+                background-color: lightgreen;
+                width: 200px;
+                padding: 10px;
+                border: 1px solid transparent;
+                border-radius: 5px;
+            }
+            #submit-button:hover{
+                transform: scale(1.3);
+                background-color: rgb(84, 235, 84);
+                cursor: pointer;
+
+            }
+            #button{
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 50px;
+            }
+            .state{
+                width: 100%;
+                font-size: 20px;
+                padding: 16px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+            }
+            .state:hover{
+                background-color: lightcyan;
+            }
+            #covid{
+                width: 50%;
+                font-size: 20px;
+                padding: 16px;
+                border-radius: 5px;
+                letter-spacing: 3px;
+            }
+            #covid:hover{
+                background-color: lightcyan;
+            }
+            input:focus{
+                border: none;
+                background-color: lightcyan;
+            }
+        </style>
+
+    </head>
+    <body style="background-color: rgb(189, 213, 245);">
+        <div class="beg">
+         <h2>If You need Any Kind of help in this Pandemic, Do let us know by submitting the Help Form below
+             <br>After submitting we will contact you within 48 hours.....
+         </h2>
+        </div>
+        <main>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScRLQ_x47-gd7cAKrbkhGonhowYfZFqUcUiXdDNiuWrVGhlAw/formResponse" target="_self" method="POST">
+                <p class="form-heading" style="color: red;">HELP FORM</p>
+                <div class="form-element">
+                    <input class="fullname" type="text" placeholder="Full name" name="entry.1874162764" autofocus required>
+                </div>
+                <div class="form-element">
+                    <input class="email" type="email" placeholder="Email" name="entry.1409502905" required>
+                </div>
+                <div class="form-element">
+                    <input class="age" type="number" placeholder="Age" name="entry.1121584150" max="100">
+                </div>
+                <div class="form-element">
+                    <input class="aadhar" type="number" placeholder="Aadhar Number" name="entry.31421457" required>
+                </div>
+                <div class="form-element">
+                    <p class="label">Gender:</p>
+                        <input class="form-radio" type="radio" name="entry.53107064" value="male">&nbsp;male
+                        <input class="form-radio" type="radio" name="entry.53107064" value="female">&nbsp;female
+                        <input class="form-radio" type="radio" name="entry.53107064" value="other">&nbsp;other
+                </div>
+                <div class="form-element">
+                   <p class="label" name="entry.590495310">State:</p> 
+                   <select class="state" name="entry.964344647"  required>
+                       <option value="None">None</option>
+                       <option value="Andra Pradesh">Andra Pradesh</option>
+                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                       <option value="Assam">Assam</option>
+                       <option value="Bihar">Bihar</option>
+                       <option value="Chhattisgarh">Chhattisgarh</option>
+                       <option value="Goa">Goa</option>
+                       <option value="Gujarat">Gujarat</option>
+                       <option value="Haryana">Haryana</option>
+                       <option value="Himachal Pradesh">Himachal Pradesh</option>
+                       <option value="Jharkhand">Jharkhand</option>
+                       <option value="Karnataka">Karnataka</option>
+                       <option value="Kerala">Kerala</option>
+                       <option value="Madhya Pradesh">Madhya Pradesh</option>
+                       <option value="Maharashtra">Maharashtra</option>
+                       <option value="Manipur">Manipur</option>
+                       <option value="Meghalaya">Meghalaya</option>
+                       <option value="Mizoram">Mizoram</option>
+                       <option value="Nagaland">Nagaland</option>
+                       <option value="Odisha">Odisha</option>
+                       <option value="Punjab">Punjab</option>
+                       <option value="Rajasthan">Rajasthan</option>
+                       <option value="Sikkim">Sikkim</option>
+                       <option value="Tamil Nadu">Tamil Nadu</option>
+                       <option value="Telangana">Telangana</option>
+                       <option value="Tripura">Tripura</option>
+                       <option value="Uttar Pradesh">Uttar Pradesh</option>
+                       <option value="Uttrakhand">Uttrakhand</option>
+                       <option value="West Bengal">West Bengal</option>
+                   </select>
+                </div>
+                <div class="form-element">
+                    <input class="City" type="text" placeholder="City" name="entry.1623505885" required>
+                </div>
+                <div class="form-element">
+                    <p class="label" name="entry.772656368">Are you Corona Positive?</p>
+                    <select class="label" name="entry.117289183" id="covid" required>
+                        <option value="dont Know">don't Know</option>
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <input class="contact" type="number" placeholder="Phone Number" name="entry.1553642365"  required>
+                </div>
+                <div id="button" class="form-element">
+                    <input id="submit-button" type="submit" value="SUBMIT">
+                </div>
+
+            </form>
+        </main>
+        <footer style="font-size: 20px; padding: 18px; background-color: lightgray ; text-align: center;">
+            <a href="corona.html"><input type="button" value="Home Page" style="font-size: 15px; padding:5px; background-color: azure;"></a>
+            <p>&copy;created by Arman </p>
+                    <p><strong>email&nbsp;:&nbsp;</strong><i><a href="mailto:alikhanarman786@gmail.com">alikhanarman786@gmail.com</a><p>
+        </footer>
+        
+    </body>
+</html>
