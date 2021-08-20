@@ -12,7 +12,7 @@
             }
             body{
                 width: 100%;
-                height: 80vw;
+                height: 269vh;
                 position: relative;
             }
             #helplineNo{
@@ -36,17 +36,22 @@
                 
             }
             #updates{
-                padding: 15%;
-                margin: 10px 0px 20px 0px;
-                text-align: center;
+                margin: 10px 0px 0px 0px;
                 width: 100%;
-                height:400px;
-                background-color: lightcoral;
                 color: rgb(250, 234, 234);
+                text-align: center;
 
             }
+            .frames{
+                margin: 20px 30px;
+                padding: 5px;
+                background-color: rgb(207, 214, 214);
+                border-radius: 5px;
+                box-shadow: 4px 4px 15px gray;
+            }
             main{
-                padding: 0 10px;
+                background: linear-gradient(to right , lightgray ,gray);
+                padding: 0 ;
                 border-radius: 4px;
             }
             .sBysL{
@@ -85,6 +90,18 @@
                 padding: 20px;
 
             }
+            .imgwrapper:hover{
+                background-color: rgb(241, 241, 129);
+
+            }
+            .doc:hover{
+                background-color: rgb(37, 35, 35);
+                cursor: pointer;
+            }
+            .video:hover{
+                border-radius: 4px;
+                box-shadow: 3px 3px 12px white;
+            }
         </style>
 
     </head>
@@ -114,21 +131,24 @@
                 <p style="font-size: 15px; font-weight: 800;">9013151515<br>Helpdesk</p>
             </div>
         </div> 
-        <div id="updates">
-            <p style="font-size: 30px;"> THIS SECTION IS CURRENTLY UNDER MAINTENANCE <br>
-            WILL BE DISPLAYED SOON.....</p>
-        </div>
         <main>
+            <div id="updates">
+                <p style="padding: 5px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 35px; font-weight: bolder;text-shadow: 4px 3px 10px rgb(235, 147, 147); margin: 8px 0px; color: rgb(240, 87, 87);">SOME STATS</p>
+                <iframe class="frames" src="https://public.domo.com/cards/dJ45D" width="600px" height="440px" marginheight="0" frameborder="0"></iframe>
+                <iframe class="frames" src="https://public.domo.com/cards/aOm4g" width="600px" height="440px" marginheight="0" frameborder="0"></iframe>
+                <iframe class="frames" src="https://public.domo.com/cards/dG1jy" width="600px" height="440px" marginheight="0"  frameborder="0"></iframe>
+                <iframe class="frames" src="https://public.domo.com/cards/aKg4r" width="600px" height="440px" marginheight="0" frameborder="0"></iframe>
+            </div>
             <section class="sBysL">
                 <p style="font-size: 35px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; padding: 16px 0px;">For more information on<br>covid-19 <span style="color: rgba(240, 240, 50, 0.767);">vaccine</span></p>
                 <div class="doc-wrapper">
                     <a href="https://static.mygov.in/rest/s3fs-public/mygov_161960430051307401.pdf"><div class="doc"><img class="icon" src="https://img.icons8.com/fluency/2x/faq.png" alt="faq_icon"><br>FAQ's <br>on cowin</div></a>
-                    <a href="https://static.mygov.in/rest/s3fs-public/mygov_162157154351307401.pdf"><div class="doc"><img class="icon" src="https://img.icons8.com/external-justicon-flat-gradient-justicon/2x/external-appointment-telemedicine-justicon-flat-gradient-justicon.png" alt="appointment_icon"><br>know how to book your appointment</div></a>
-                    <a href="https://static.mygov.in/rest/s3fs-public/mygov_161960438951307401.pdf"><div class="doc"><img src="https://img.icons8.com/material-sharp/2x/4a90e2/plus-minus-2.png" alt="dos&donts"><br>Do's & Dont's<br></div></a>
+                    <a href="https://static.mygov.in/rest/s3fs-public/mygov_162157154351307401.pdf"><div class="doc"><img class="icon" src="https://img.icons8.com/external-justicon-flat-gradient-justicon/2x/external-appointment-telemedicine-justicon-flat-gradient-justicon.png" alt="appointment_icon"><br>know how to book youe appointment</div></a>
+                    <a href="https://static.mygov.in/rest/s3fs-public/mygov_161960438951307401.pdf"><div class="doc"><img src="https://img.icons8.com/material-sharp/2x/4a90e2/plus-minus-2.png" alt="dos&donts"><br>Do's & Dont's</div></a>
                 </div>
             </section>
             <section class="sBysR">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/io-oreIAuTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" width="600" height="400" src="https://www.youtube.com/embed/io-oreIAuTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
         </main>
         <footer style="font-size: 20px; padding: 18px; background-color: lightgray ; text-align: center; margin-bottom: 0;position: absolute; bottom: 0;width: 100%;">
